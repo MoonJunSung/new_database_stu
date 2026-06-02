@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+section{
+	flex: 1;
+}
+
+header{
+	background-color: #39c683;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 24;
+	font-weight: bold;
+}
+
+nav{
+	background-color: #808000;
+	padding: 10px;
+	font-weight: bold;
+}
+
+nav a{
+	margin: 0 10px;
+}
+
+h2{
+	text-align: center;
+}
+
+table{
+	margin: 0 auto;
+	border-collapse: collapse;
+	width: 80%;
+}
+
+th, td{
+	border: 3px double;
+	padding: 6px;
+	text-align: center;
+}
+
+footer{
+	background-color: #39c683;
+	text-align: center;
+	font-weight: bold;
+	padding: 15px;
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
