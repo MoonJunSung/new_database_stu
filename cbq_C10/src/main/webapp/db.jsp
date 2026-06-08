@@ -7,7 +7,7 @@
 	Connection con = null;
 	try{
 		Class.forName("oracle.jdbc.OracleDriver");
-		con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","1234");
+		con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1599:xe","system","1234");
 		
 	}catch(Exception e){
 		e.printStackTrace();
